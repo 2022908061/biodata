@@ -1,0 +1,75 @@
+/* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7eeee;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the main container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #e3f581;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Center align content in the header */
+header {
+    text-align: center;
+}
+
+/* Style the main heading */
+h1 {
+    color: #333;
+    margin: 0;
+}
+
+/* Style paragraphs */
+p {
+    color: #666;
+}
+
+/* Style the "About Me" section */
+.center {
+    text-align: center;
+    margin: 0 auto;
+    width: 60%; /* Adjust this value to control the width of the centered content */
+}
+
+/* Style the secondary heading */
+h2 {
+    color: #333;
+}
+
+/* Style the unordered list */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style list items for skills */
+li {
+    background-color: #007BFF;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Add additional styling for the "info" section if needed */
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.left, .right {
+    flex-basis: 48%;
+}
+
+/* If you have more sections to style, you can add them here */
